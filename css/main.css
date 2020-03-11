@@ -10,8 +10,18 @@ h1 {
 
 section {
   background-color: #fff;
+  padding-top: 1.4rem;
 }
 
-@media query {
+fieldset {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
 
 }

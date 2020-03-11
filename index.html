@@ -10,14 +10,16 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body class="pad-t pad-b">
-  <section class="contact island-1-2">
-    <h1>Want to go to Mars?</h1>
-    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+<body>
+  <section class="contact gutter">
+    <h1 class="pad-t">Want to go to Mars?</h1>
+    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     <form class="push-0" action="https://formspree.io/simperlykate@gmail.com" method="post">
       <fieldset>
-        <legend class="tera italic bold">Personal details</legend>
+        <legend class="mega italic pad-b-1-2">Personal details</legend>
+
         <div class="grid">
+
           <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
             <div class="push push-r-1-2">
               <label for="name">Name</label>
@@ -28,6 +30,7 @@
               <input id="age" type="number" name="age" required>
             </div>
           </div>
+
           <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
             <div class="push">
               <label for="email">Email</label>
@@ -43,6 +46,7 @@
               </select>
             </div>
           </div>
+
         </div>
         <div class="push">
           <label for="address">Address</label>
@@ -50,12 +54,12 @@
         </div>
       </fieldset>
       <fieldset>
-        <legend class="tera italic bold">Mission statement</legend>
+        <legend class="mega italic">Mission statement</legend>
         <div class="push">
           <label for="mission">Why do you want to go to Mars?</label>
           <textarea id="mission" name="mission"></textarea>
         </div>
-        <div class="text-center">
+        <div class="text-center pad-b-2">
           <button class="btn mega" type="submit">Register for the trip!</button>
           <input type="hidden" name="_subject" value="Request to join the mission">
         </div>
